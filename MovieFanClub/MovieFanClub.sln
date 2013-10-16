@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieFanClub", "MovieFanClub\MovieFanClub.csproj", "{CBE1DB42-8C9C-4FE1-AFE4-6A862B26177E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CherryTomato", "CherryTomato-master\CherryTomato\CherryTomato.csproj", "{FFF019A4-DB0B-452A-83AE-C967A546A278}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBE1DB42-8C9C-4FE1-AFE4-6A862B26177E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBE1DB42-8C9C-4FE1-AFE4-6A862B26177E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBE1DB42-8C9C-4FE1-AFE4-6A862B26177E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBE1DB42-8C9C-4FE1-AFE4-6A862B26177E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFF019A4-DB0B-452A-83AE-C967A546A278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF019A4-DB0B-452A-83AE-C967A546A278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF019A4-DB0B-452A-83AE-C967A546A278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF019A4-DB0B-452A-83AE-C967A546A278}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

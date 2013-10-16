@@ -1,0 +1,57 @@
+﻿@model CherryTomato.Entities.Movie
+
+@{
+    ViewBag.Title = ViewBag.id;
+}
+
+<h2>  @Html.DisplayFor(model => model.Title)</h2>
+
+<fieldset>
+    <legend>Movie</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.RottenTomatoesId)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.RottenTomatoesId)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Title)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Title)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Year)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Year)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MpaaRating)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MpaaRating)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Runtime)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Runtime)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Synopsis)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Synopsis)
+    </div>
+</fieldset>
+<p>
+    
+    @Html.ActionLink("Back to List", "UpcomingList")
+</p>
